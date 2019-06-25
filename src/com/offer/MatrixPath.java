@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 public class MatrixPath {
     public static void main(String[] args) {
-        Solution5 s = new Solution5();
+        Solution2 s = new Solution2();
         char[] path = {'a','b','c','e','s','f','c','s','a','d','e','e'};
         char[] str = {'b','c','c','e','d'};
         System.out.println(s.hasPath(path,3,4,str));
     }
 }
 
-class Solution5 {
+class Solution2 {
 
     private int[][] inc = {{-1,0},{0,1},{1,0},{0,-1}};
     private boolean dfs(char[] matrix,boolean[][] visited,int x, int y,int cols,int rows,int index,char[] str) {

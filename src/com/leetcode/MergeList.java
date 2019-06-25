@@ -27,6 +27,7 @@ public class MergeList {
     }
 
     public static ListNode buildListFromStr(String list) {
+        if(list.equals("null")) return null;
         String[] listStr = list.split("->");
         ListNode p1 = null;
         ListNode first = null;

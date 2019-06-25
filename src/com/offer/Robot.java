@@ -4,12 +4,12 @@ package com.offer;
 public class Robot {
 
     public static void main(String[] args) {
-        Solution4 s = new Solution4();
+        Solution1 s = new Solution1();
         System.out.println(s.movingCount(4,4,4));
     }
 }
 
-class Solution4 {
+class Solution1 {
     private int validCnt = 0;
     private int[][] inc = {{-1,0},{0,1},{1,0},{0,-1}};
     private boolean canVisit(int i,int j,int threshold) {
