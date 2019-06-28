@@ -87,3 +87,4 @@ class Solution64 {
 
         return isSame(strMap,wordMap);
     }
+}
