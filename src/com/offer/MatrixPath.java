@@ -1,7 +1,19 @@
 package com.offer;
+/*
+请设计一个函数，用来判断在一个矩阵中是否存在一条包含某字符串所有字符的路径。
+路径可以从矩阵中的任意一个格子开始，每一步可以在矩阵中向左，向右，向上，向下移动一个格子。
+如果一条路径经过了矩阵中的某一个格子，则之后不能再次进入这个格子。
+例如
+a b c e
+s f c s
+a d e e
+这样的3 X 4 矩阵中包含一条字符串"bcced"的路径，
+但是矩阵中不包含"abcb"路径，因为字符串的第一个字符b占据了矩阵中的第一行第二个格子之后，路径不能再次进入该格子。
 
-import java.util.ArrayList;
-import java.util.List;
+思路：
+从每个格点开始进行深度遍历，如果周围格点字符等于字符串响应位置上的字符，那么
+ */
+
 public class MatrixPath {
     public static void main(String[] args) {
         Solution2 s = new Solution2();
@@ -32,8 +44,6 @@ class Solution2 {
 
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str)
     {
-        List<List<Integer>> startPos = new ArrayList<>();//存储起点的集合
-
         for(int i = 0; i < rows; i++) {
             for(int j = 0; j < cols; j++) {
                 boolean[][] visited = new boolean[rows][cols];
