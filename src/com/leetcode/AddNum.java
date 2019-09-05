@@ -1,5 +1,6 @@
 package com.leetcode;
 
+import java.util.HashSet;
 import java.util.Scanner;
 
 /*
@@ -38,6 +39,7 @@ class Solution8 {
         if(l1==null) return l2;
         if(l2==null) return l1;
         int carry = 0;
+
         ListNode p1 = l1,p2 = l2;
         ListNode result = null,cur = null;
         ListNode lastNode = null;

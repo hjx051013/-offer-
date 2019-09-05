@@ -47,13 +47,24 @@ public class MergeList {
         return first;
     }
     public static void printList(ListNode p) {
-        while(p!=null) {
-            System.out.print(p.val);
-            if(p.next!=null) {
-                System.out.print("->");
+        if(p==null) System.out.print("null");
+        else {
+            while(p!=null) {
+                System.out.print(p.val);
+                if(p.next!=null) {
+                    System.out.print("->");
+                }
+                p = p.next;
             }
+        }
+    }
+
+    public static ListNode getTargetNode(ListNode p, int targetVal) {
+        while(p!=null) {
+            if(p.val == targetVal) return p;
             p = p.next;
         }
+        return null;
     }
 }
 
@@ -82,10 +93,4 @@ class Solution7 {
         }
         return merge;
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next = null;
-    ListNode(int x) { val = x; }
 }
