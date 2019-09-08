@@ -57,8 +57,7 @@ class Solution66 {
             List<Integer> resList = new LinkedList<>();
             resList.addAll(addedList);
             res.add(resList);
-        }
-        else {
+        } else {
             int size = numList.size();
             for(int i = 0; i < size; i++) {
                 Integer rmNum = numList.remove(i);
