@@ -26,6 +26,8 @@ public class BuildTree {
         int[] inOrder = {2,1};
         Solution85 s = new Solution85();
         TreeNode root = s.buildTree(preOrder, inOrder);
+        Solution82 s1 = new Solution82();
+        System.out.println(s1.inorderTraversal(root));
         return;
     }
 

@@ -57,6 +57,7 @@ public class DetectCycle {
         Solution26 s = new Solution26();
         ListNode cross = s.detectCycle(list);
         System.out.println(cross.val);
+        in.close();
     }
 
     public static ListNode getTail(ListNode p) {

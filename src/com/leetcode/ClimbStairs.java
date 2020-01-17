@@ -27,7 +27,6 @@ package com.leetcode;
  */
 public class ClimbStairs {
     public static void main(String[] args) {
-        int n;
         Solution74 s = new Solution74();
         System.out.println(s.climbStairs(4));
     }

@@ -39,6 +39,7 @@ public class MergeKList {
         Solution18 s = new Solution18();
         ListNode head = s.mergeKLists(lists);
         printList(head);
+        in.close();
     }
 }
 
@@ -58,7 +59,7 @@ class Solution18 {
 
         for(int i = 0; i < lists.length; i++) {
             cur[i] = lists[i];
-            Pair<Integer,Integer> pair = new Pair(i,cur[i].val);
+            Pair<Integer,Integer> pair = new Pair<Integer, Integer>(i,cur[i].val);
             pq.add(pair);
         }
 

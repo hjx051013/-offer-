@@ -24,6 +24,7 @@ public class MergeList {
         Solution7 s = new Solution7();
         ListNode last = s.mergeTwoLists(p1,p2);
         printList(last);
+        in.close();
     }
 
     public static ListNode buildListFromStr(String list) {

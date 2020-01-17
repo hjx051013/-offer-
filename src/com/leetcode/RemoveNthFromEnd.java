@@ -38,6 +38,7 @@ public class RemoveNthFromEnd {
         ListNode head = buildListFromStr(line);
         Solution17 s = new Solution17();
         printList(s.removeNthFromEnd(head,n));
+        in.close();
     }
 }
 

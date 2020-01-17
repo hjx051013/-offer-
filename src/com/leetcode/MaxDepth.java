@@ -28,6 +28,7 @@ public class MaxDepth {
         TreeNode root= SymmetricTree.buildTreeFromStr(line);
         Solution84 s = new Solution84();
         System.out.println(s.maxDepth(root));
+        in.close();
     }
 }
 

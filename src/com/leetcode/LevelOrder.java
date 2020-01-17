@@ -38,6 +38,7 @@ public class LevelOrder {
             for(Integer i:level) System.out.print(i+" ");
             System.out.println();
         }
+        in.close();
     }
 }
 

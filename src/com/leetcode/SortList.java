@@ -1,6 +1,5 @@
 package com.leetcode;
 
-import java.awt.*;
 import java.util.Scanner;
 /*
 在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。
@@ -25,6 +24,7 @@ public class SortList {
         Solution10 s = new Solution10();
         ListNode list = MergeList.buildListFromStr(line);
         MergeList.printList(s.sortList(list));
+        in.close();
     }
 }
 

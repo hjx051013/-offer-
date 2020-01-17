@@ -1,6 +1,5 @@
 package com.leetcode;
 
-import java.util.HashSet;
 import java.util.Scanner;
 
 /*
@@ -31,6 +30,7 @@ public class AddNum {
         Solution8 s = new Solution8();
         ListNode result = s.addTwoNumbers(p1,p2);
         MergeList.printList(result);
+        in.close();
     }
 }
 

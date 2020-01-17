@@ -47,7 +47,6 @@ public class NQueens {
 }
 
 class Solution71 {
-    private int[][] matrix;
     private boolean[] colVisited;
     private int[] selectCol;
     private boolean[] posDiag;
@@ -56,7 +55,6 @@ class Solution71 {
     private List<List<String>> res = new ArrayList<>();
     public List<List<String>> solveNQueens(int n) {
         N = n;
-        matrix = new int[n][n];
         colVisited = new boolean[n];
         selectCol = new int[n];
         posDiag = new boolean[2*n-1];

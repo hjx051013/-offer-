@@ -85,7 +85,7 @@ class Solution76 {
         int resL=0, resR=0;
         List<Pair<Integer, Character>> filteredS = new ArrayList<>();
         for(int i = 0; i < s.length(); i++) {
-            if(map.containsKey(s.charAt(i))) filteredS.add(new Pair(i, s.charAt(i)));
+            if(map.containsKey(s.charAt(i))) filteredS.add(new Pair<Integer,Character>(i, s.charAt(i)));
         }
         Map<Character,Integer> dictT = new HashMap<>();
         int l = 0, r = 0;

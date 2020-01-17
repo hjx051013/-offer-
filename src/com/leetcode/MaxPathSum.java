@@ -43,6 +43,7 @@ public class MaxPathSum {
         TreeNode root = buildTreeFromStr(line);
         Solution36 s = new Solution36();
         System.out.println(s.maxPathSum(root));
+        in.close();
     }
 
 

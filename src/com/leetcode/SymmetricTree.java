@@ -36,6 +36,7 @@ public class SymmetricTree {
         TreeNode root = buildTreeFromStr(line);
         Solution33 s = new Solution33();
         System.out.println(s.isSymmetric(root));
+        in.close();
     }
 
     public static TreeNode buildTreeFromStr(String str) {

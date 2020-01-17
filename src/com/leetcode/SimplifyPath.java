@@ -56,6 +56,7 @@ public class SimplifyPath {
             Solution3 s = new Solution3();
             System.out.println(s.simplifyPath(line));
         }
+        in.close();
     }
 }
 

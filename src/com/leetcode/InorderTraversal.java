@@ -30,6 +30,7 @@ public class InorderTraversal {
         for(Integer e:res) {
             System.out.print(e+",");
         }
+        in.close();
     }
 }
 

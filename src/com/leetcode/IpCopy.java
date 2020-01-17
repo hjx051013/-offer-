@@ -21,7 +21,7 @@ public class IpCopy {
         Scanner in = new Scanner(System.in);
         Solution2 s = new Solution2();
         System.out.println(s.restoreIpAddresses(in.nextLine()));
-
+        in.close();
     }
 }
 

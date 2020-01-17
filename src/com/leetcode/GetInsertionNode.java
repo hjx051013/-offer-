@@ -71,7 +71,7 @@ public class GetInsertionNode {
         if(tailB!=null) tailB.next = posA;
         Solution27 s = new Solution27();
         System.out.println(s.getIntersectionNode(headA,headB).val);
-
+        in.close();
     }
 }
 

@@ -70,7 +70,7 @@ class Solution30 {
     public int maxEnvelopes(int[][] envelopes) {
         List<Pair<Integer,Integer>> pairList = new ArrayList<>();
         for(int i = 0; i < envelopes.length; i++) {
-            pairList.add(new Pair(envelopes[i][0],envelopes[i][1]));
+            pairList.add(new Pair<Integer,Integer>(envelopes[i][0],envelopes[i][1]));
         }
         pairList.sort(new Comparator<Pair<Integer, Integer>>() {
             @Override

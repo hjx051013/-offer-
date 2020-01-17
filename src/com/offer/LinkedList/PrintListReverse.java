@@ -19,6 +19,7 @@ public class PrintListReverse {
         ListNode head = MergeList.buildListFromStr(line);
         Solution5 s = new Solution5();
         s.printListReverse(head);
+        in.close();
     }
 }
 

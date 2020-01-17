@@ -2,7 +2,6 @@ package com.offer.LinkedList;
 
 import com.leetcode.ListNode;
 import com.leetcode.MergeList;
-import java.util.HashMap;
 import java.util.Scanner;
 
 /*
@@ -23,6 +22,7 @@ public class FindLastKstNode {
         Soluition15 s = new Soluition15();
         ListNode target = s.findLastKstNode(list, 3);
         System.out.println(target!=null?target.val:"null");
+        in.close();
     }
 }
 

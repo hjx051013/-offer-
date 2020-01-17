@@ -32,6 +32,7 @@ public class ReverseKGroup {
         Solution49 s = new Solution49();
         ListNode newList = s.reverseKGroup(head, 5);
         MergeList.printList(newList);
+        in.close();
     }
 
 }

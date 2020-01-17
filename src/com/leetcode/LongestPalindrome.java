@@ -30,6 +30,7 @@ public class LongestPalindrome {
         String str = in.next();
         Solution40 s = new Solution40();
         System.out.println(s.longestPalindrome(str));
+        in.close();
     }
 }
 

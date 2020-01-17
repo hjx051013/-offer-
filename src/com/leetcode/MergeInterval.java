@@ -1,5 +1,4 @@
 package com.leetcode;
-import java.sql.SQLSyntaxErrorException;
 import java.util.*;
 /*
 56. 合并区间

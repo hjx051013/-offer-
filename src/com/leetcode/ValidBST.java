@@ -11,6 +11,7 @@ public class ValidBST {
         TreeNode root = buildTreeFromStr(line);
         Solution38 s = new Solution38();
         System.out.println(s.isValidBST(root));
+        in.close();
     }
 }
 

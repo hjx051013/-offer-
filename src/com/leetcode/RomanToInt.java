@@ -55,6 +55,7 @@ public class RomanToInt {
         while(!(str=in.next()).equals("q")) {
             System.out.println(s.romanToInt(str));
         }
+        in.close();
     }
 }
 

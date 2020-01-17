@@ -44,6 +44,7 @@ public class ReverseString {
         String line = in.nextLine();
         Solution s = new Solution();
         System.out.println(s.reverseWords(line));
+        in.close();
     }
 }
 

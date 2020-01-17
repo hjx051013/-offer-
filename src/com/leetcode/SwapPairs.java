@@ -24,6 +24,7 @@ public class SwapPairs {
         ListNode head = MergeList.buildListFromStr(line);
         ListNode newHead = s.swapPairs(head);
         MergeList.printList(newHead);
+        in.close();
     }
 }
 

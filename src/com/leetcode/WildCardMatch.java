@@ -60,6 +60,7 @@ public class WildCardMatch {
         String p = in.nextLine();
         Solution39 sol = new Solution39();
         System.out.println(sol.isMatch(s,p));
+        in.close();
     }
 }
 
@@ -110,7 +111,6 @@ class Solution39 {
 
 
     private boolean isAllSharp(String s) {
-        boolean result = true;
         for(int i = 0; i < s.length(); i++) {
             if(s.charAt(i)!='*') return false;
         }
